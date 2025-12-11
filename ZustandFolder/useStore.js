@@ -5,7 +5,6 @@ const countStore = create((set) => {
     increment: () => set((state) => ({ count: state.count + 1 }))
     decrement: () => set((state) => ({ count: state.count - 1 }))
     reset: () => set((state) => ({ count: 0 }))
-    
 })
 
 export default countStore
